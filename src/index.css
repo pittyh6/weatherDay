@@ -24,3 +24,8 @@
   --dr-gray: #878787;
   --xdr-gray: #5d5d5d;
 }
+body {
+  background-color: var(--md-blue);
+  margin: auto;
+  text-align: center;
+}
