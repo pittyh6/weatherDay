@@ -6,8 +6,21 @@
   padding: 0;
 }
 :root {
+  --white: #fff;
+  --black: #000;
+
   --lg-blue: #a2d2df;
   --md-blue: #789dbc;
   --dk-blue: #005c78;
   --xdk-blue: #153448;
+
+  --lg-pink: #ffe3e3;
+  --md-pink: #ffb0b0;
+  --dk-pink: #ff8a8a;
+  --xdk-pink: #d77fa1;
+
+  --lg-gray: #f8f6f4;
+  --md-gray: #e0e0e0;
+  --dr-gray: #878787;
+  --xdr-gray: #5d5d5d;
 }
