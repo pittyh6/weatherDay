@@ -1,8 +1,10 @@
 import React from "react";
+import WeatherAPI from "./WeatherAPI";
 
 export default function Weather() {
   return (
     <main>
+      <WeatherAPI />
       <h1>Todays Weather</h1>
       <div className="location">
         <h2>My location: </h2>
