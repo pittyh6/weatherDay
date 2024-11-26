@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import WeatherAPI from "./WeatherAPI";
 
 /*export default function Weather() {
   return (
