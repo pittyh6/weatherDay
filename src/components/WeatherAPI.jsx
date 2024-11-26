@@ -1,4 +1,4 @@
-import ReactWeather, { useOpenWeather } from "react-open-weather";
+/*import ReactWeather, { useOpenWeather } from "react-open-weather";
 
 export default function WeatherAPI() {
   const App = () => {
@@ -22,3 +22,4 @@ export default function WeatherAPI() {
     );
   };
 }
+*/

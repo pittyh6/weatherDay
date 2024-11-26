@@ -43,18 +43,20 @@ const Weather = () => {
     }
   };
 
-  return(
+  return (
     <div>
       <h1>Weather Now</h1>
       <div>
-        <input type="text"
-        placeholder="Enter City Name"
-        value={city} 
-        onChange={(e) => setCity(e.target.value)}/>
+        <input
+          type="text"
+          placeholder="Enter City Name"
+          value={city}
+          onChange={(e) => setCity(e.target.value)}
+        />
         <button onClick={fetchWeather}>Get Weather</button>
       </div>
 
-      {error && <p style={{color='red'}}>{error}</p>}
+      {error && <p style={{ color: "red" }}>{error}</p>}
 
       {weather && (
         <div>
@@ -66,8 +68,7 @@ const Weather = () => {
         </div>
       )}
     </div>
-  )
+  );
 };
-
 
 export default Weather;
